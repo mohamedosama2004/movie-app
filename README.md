@@ -106,23 +106,23 @@ This project uses [The Movie Database (TMDB) API](https://www.themoviedb.org/doc
 ## 📸 Screenshots
 
 ### 1. Sign Up Page
-![Sign Up Page](https://github.com/user-attachments/assets/screenshot-1)
+![Sign Up Page](https://raw.githubusercontent.com/mohamedosama2004/movie-app/main/Screenshot%202026-01-28%20143326.png)
 Create a new account with email and password, or use social login options (Google, Facebook, X/Twitter).
 
 ### 2. Login Page
-![Login Page](https://github.com/user-attachments/assets/screenshot-2)
+![Login Page](https://raw.githubusercontent.com/mohamedosama2004/movie-app/main/Screenshot%202026-01-28%20143140.png)
 Welcome back screen with email/password authentication and "Remember me" functionality.
 
 ### 3. Loading Screen
-![Loading Screen](https://github.com/user-attachments/assets/screenshot-3)
+![Loading Screen](https://raw.githubusercontent.com/mohamedosama2004/movie-app/main/Screenshot%202026-01-28%20143237.png)
 Animated Pac-Man style loading screen with the tagline "LOADING YOUR CINEMATIC EXPERIENCE".
 
 ### 4. Home Page - Movie Grid
-![Home Page](https://github.com/user-attachments/assets/screenshot-4)
+![Home Page](https://raw.githubusercontent.com/mohamedosama2004/movie-app/main/Screenshot%202026-01-28%20143347.png)
 Browse trending movies in a responsive grid layout with ratings, release dates, and quick action buttons.
 
 ### 5. Movie Details Page
-![Movie Details](https://github.com/user-attachments/assets/screenshot-5)
+![Movie Details](https://raw.githubusercontent.com/mohamedosama2004/movie-app/main/Screenshot%202026-01-28%20143554.png)
 Detailed movie information including backdrop image, poster, rating, runtime, genre tags, overview, and action buttons (Watch Now, Add to Favorites, Share).
 
 ## 🎨 Key Components
