@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <main className="grow">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/login" element={<LoginPage />} />
+            <Route path="/" element={<LoginPage />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/signup" element={<SignupPage />} />
-            <Route path="/movie/:id" element={<Movie />} />  
+            <Route path="/movie/:id" element={<Movie />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

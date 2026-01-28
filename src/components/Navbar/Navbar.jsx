@@ -17,7 +17,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center gap-2 group">
+          <NavLink to="/home" className="flex items-center gap-2 group">
             <div className="relative">
               <Film className="w-8 h-8 text-red-500 transition-transform duration-300 group-hover:rotate-12" />
               <div className="absolute inset-0 bg-red-500/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -29,13 +29,13 @@ function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <NavLink to="/" className={navLinkStyles}>
+            <NavLink to="/home" className={navLinkStyles}>
               Home
             </NavLink>
-            <NavLink to="/login" className={navLinkStyles}>
+            <NavLink to="/" className={navLinkStyles}>
               Login
             </NavLink>
-            <NavLink to="/signup" >
+            <NavLink to="/signup">
               <span className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-red-500/25">
                 Sign Up
               </span>
@@ -63,7 +63,7 @@ function Navbar() {
         >
           <div className="flex flex-col gap-2 pt-2 border-t border-gray-700">
             <NavLink
-              to="/"
+              to="/home"
               onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) =>
                 `px-4 py-2 rounded-lg transition-all duration-300 ${
@@ -76,7 +76,7 @@ function Navbar() {
               Home
             </NavLink>
             <NavLink
-              to="/login"
+              to="/"
               onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) =>
                 `px-4 py-2 rounded-lg transition-all duration-300 ${

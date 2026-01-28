@@ -3,35 +3,37 @@ import { NavLink, useNavigate } from "react-router";
 import { toast } from "react-toastify";
 
 function LoginPage() {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
-   async function handleSubmit  (e)  {
+  async function handleSubmit(e) {
     e.preventDefault();
-    const values ={
+    const values = {
       email,
       password,
-    }
+    };
     // Handle login logic here
-    const response = await fetch(`https://ecommerce.routemisr.com/api/v1/auth/signin`,
+    const response = await fetch(
+      `https://ecommerce.routemisr.com/api/v1/auth/signin`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
-  })
-  const data =await response.json()
-  if(data.message==='success'){
-    toast.success('Welcome back ☝️');
-    setTimeout(()=>{
-      navigate('/')
-    }, 2000)
-  }else{
-    toast.error(data.message || 'Login failed. Please try again.');
+      },
+    );
+    const data = await response.json();
+    if (data.message === "success") {
+      toast.success("Welcome back ☝️");
+      setTimeout(() => {
+        navigate("/home");
+      }, 2000);
+    } else {
+      toast.error(data.message || "Login failed. Please try again.");
+    }
   }
-};
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-900 px-4">
