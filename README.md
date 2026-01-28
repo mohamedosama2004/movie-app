@@ -105,20 +105,25 @@ This project uses [The Movie Database (TMDB) API](https://www.themoviedb.org/doc
 
 ## 📸 Screenshots
 
-### Home Page
+### 1. Sign Up Page
+![Sign Up Page](https://github.com/user-attachments/assets/screenshot-1)
+Create a new account with email and password, or use social login options (Google, Facebook, X/Twitter).
 
-Displays a grid of trending movies with poster images, ratings, and release dates.
+### 2. Login Page
+![Login Page](https://github.com/user-attachments/assets/screenshot-2)
+Welcome back screen with email/password authentication and "Remember me" functionality.
 
-### Movie Details
+### 3. Loading Screen
+![Loading Screen](https://github.com/user-attachments/assets/screenshot-3)
+Animated Pac-Man style loading screen with the tagline "LOADING YOUR CINEMATIC EXPERIENCE".
 
-Shows comprehensive movie information including:
+### 4. Home Page - Movie Grid
+![Home Page](https://github.com/user-attachments/assets/screenshot-4)
+Browse trending movies in a responsive grid layout with ratings, release dates, and quick action buttons.
 
-- Backdrop and poster images
-- Synopsis and overview
-- Rating and vote count
-- Runtime, budget, and revenue
-- Production companies
-- Release date and language
+### 5. Movie Details Page
+![Movie Details](https://github.com/user-attachments/assets/screenshot-5)
+Detailed movie information including backdrop image, poster, rating, runtime, genre tags, overview, and action buttons (Watch Now, Add to Favorites, Share).
 
 ## 🎨 Key Components
 
