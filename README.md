@@ -16,6 +16,11 @@ A modern, responsive movie discovery application built with React 19 and powered
 - ⚡ **Fast Performance** - Built with Vite for lightning-fast development and builds
 - 🎨 **Modern UI/UX** - Gradient effects, hover animations, and polished interactions
 
+
+## ✨ Live Demo
+https://movie-app-eight-blond-57.vercel.app/
+
+
 ## 🛠️ Tech Stack
 
 | Technology         | Purpose                     |
